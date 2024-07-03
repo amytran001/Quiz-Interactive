@@ -1,0 +1,25 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Interactive Quiz</title>
+    <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="quiz-container">
+    <h1>Interactive Quiz</h1>
+    <form id="quiz-form">
+        <div class="question">
+            <p>1. What is the capital of France?</p>
+            <label><input type="radio" name="q1" value="a"> Paris </label><br>
+            <label><input type="radio" name="q1" value="b"> Rome </label><br>
+            <label><input type="radio" name="q1" value="c"> Madrid </label><br>
+            <label><input type="radio" name="q1" value="d"> Berlin </label><br>
+        </div>
+        <button type="button" onclick="submitQuiz()">Submit</button>
+    </form>
+    <div id="score">Score</div>
+</div>
+<script src="script.js"></script> 
+</body>
+</html>
